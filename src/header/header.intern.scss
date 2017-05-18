@@ -1,0 +1,21 @@
+    @import '../style/color.scss';
+
+    .intern {
+        .navbar {
+            background-color: $teal5;
+            color: $white;
+            .navbar-right {
+                .userProfile {
+                    background-color: inherit;
+                    color: $white;
+                    &:hover {
+                        background-color: $teal6;
+                    }
+                }
+                .userProfileActive {
+                    @extend .userProfile;
+                    background-color: $teal6;
+                }
+            }
+        }
+    }

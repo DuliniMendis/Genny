@@ -1,0 +1,25 @@
+@import '../../style/color.scss';
+
+    .intern{
+
+    .sidebar {
+         background-color:$teal6;
+         a {
+             color:$black;
+         }
+         a:hover, .offcanvas a:focus{
+             background-color:$teal7;
+             color:$white;
+             }
+        a.active {
+                 background-color: $teal8;
+                 color:$white;
+
+             }
+                  .divider {
+                    background-color: $teal7;
+                }
+    }
+        }
+
+

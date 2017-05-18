@@ -1,0 +1,4 @@
+layout:
+  image: outcomelife/layout:latest
+  ports:
+    - "4000:80"

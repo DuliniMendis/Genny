@@ -1,0 +1,78 @@
+/*************** primary colors  **************/
+/*************** primary colors End **************/
+body {
+  margin: 0 !important; }
+
+.tree-wrapper {
+  width: 100%;
+  height: 100%; }
+
+.tree-item {
+  padding: 10px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+  -webkit-transition: background-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s; }
+
+.tree-item:hover {
+  background-color: #009688; }
+
+.sort-container{
+  background-color: #fff;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.sortable-pane::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #999;
+}
+
+.sortable-pane::-webkit-scrollbar
+{
+  height: 10px;
+  background-color: #212121;
+  width:10px;
+}
+
+.sortable-pane::-webkit-scrollbar-thumb
+{
+  background-color: #212121;
+  border-radius: 5px;
+}
+
+.table-column{
+  background-color: #fff;
+  border-color:;
+}
+
+.table-header-cell{ 
+    background-color: #26A69A;   
+    color: #fff;   
+    font-size: 16px;    
+    height:40px;
+}
+
+.table-header-cell:hover, .table-header-cell:active{
+    background-color: #3c8c84;
+}
+
+.sort-text:hover, .sort-text:active{
+    font-size:18px;
+}
+
+.table-cell{
+    color: #212121;
+    font-size: 14px;
+    height:45px;
+}

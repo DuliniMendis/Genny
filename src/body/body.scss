@@ -1,0 +1,12 @@
+@import './body.intern.scss';
+.body {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    bottom: 40px;
+    z-index: -1;
+    left: 0;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+
+}

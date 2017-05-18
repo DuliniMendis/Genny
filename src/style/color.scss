@@ -1,0 +1,37 @@
+/*************** primary colors  **************/
+//teal [interMatch]
+$teal9: #004d40;
+$teal8: #00695c;
+$teal7: #00796b;
+$teal6: #00897b;
+$teal5: #009688;
+$teal50 : #E0F2F1;
+$body_background: rgb(236, 240, 241);
+
+//Text colors
+$white: white;
+$black: black;
+$text: #889eae;
+
+
+
+//cyan
+$cyan1: #00bcd4;
+
+/*************** primary colors End **************/
+//header
+
+//header End
+//main
+//sidebar
+
+//sidebar End
+//main End
+
+//footer
+//footer End
+@mixin background-color($background_color) {
+    background-color : $background_color;
+}
+
+

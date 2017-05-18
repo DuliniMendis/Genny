@@ -1,0 +1,22 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.visible-menu {
+  display: block; }
+
+.hidden-menu {
+  display: none; }
+
+  .fa-sort-desc {
+  margin-top: -1px;
+  margin-left: 5px;
+  position: absolute; }
+
+  i{
+  	vertical-align:middle;
+  	float:none !important;
+  }
+
+  .progress{
+  	margin-left:10px;
+  }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genny Layout </title>
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+<meta name="description" content="outcome-hub genny layout" />
+<meta property="og:type" content="web applicaiont" />
+<meta property="og:title" content="genny layout" />
+<meta property="og:description" content="outcome-hub genny layout" />
+<meta property="og:url" content="https://genny.outcome-hub.com/" />
+<meta property="article:published_time" content="2017-04-02" />
+<meta property="article:modified_time" content="2017-04-03" />
+<meta property="og:site_name" content="outcome-hub genny layout" />
+<meta property="og:site_name" content="genny layout" />
+<!-- /SEO Ultimate -->
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+  <style>
+    .container {
+      margin-top: 40vh; 
+      margin-left: 40%;
+      float:left;
+      font-size:24px;
+      color:teal;
+      font-style: bold;
+      height:150px;
+    }
+    .container #title {
+      margin-top:15px;
+    }
+    .loader {
+      border: 12px solid #f3f3f3;
+      /* Light grey */
+      border-top: 12px solid #3498db;
+      /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 2s linear infinite;
+      margin-left:30px;
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- loadin icon area -->
+  <div class="container" id="load">
+    <div class="loader">
+    </div>
+    <div id="title" >Genny Layout </div>
+  </div>
+
+  <div id="app"></div>
+  <script>
+    document.onreadystatechange = function () {
+      var state = document.readyState;
+      if (state == 'interactive') {
+        document.getElementById('app').style.display = "none";
+
+      } else if (state == 'complete') {
+        setTimeout(function () {
+          document.getElementById('load').style.display = "none";
+          document.getElementById('app').style.display = "block";        
+        }, 1000);
+      }
+    }
+  </script>
+</body>
+
+</html>

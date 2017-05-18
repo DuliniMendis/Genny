@@ -1,0 +1,109 @@
+@import url(./header.intern.css);
+.navbar {
+  background: none;
+  outline: none;
+  position: absolute;
+  height: 5vh;
+  width: 100%;
+  top: 0;
+  border-radius: 0; }
+  .navbar .material-icons {
+    cursor: pointer; }
+  .navbar .navbar-right {
+    display: block;
+    float: right; }
+  .navbar .navbar-brand {
+    margin-top: -10px; }
+  .navbar .userProfile {
+    float: right;
+    margin-right: 20px;
+    right: 20px;
+    list-style: none; }
+    .navbar .userProfile .user {
+      text-align: justify;
+      margin-right: 10px; }
+      .navbar .userProfile .user .drop {
+        border: none;
+        background: none;
+        background-image: none;
+        background-color: none;
+        outline: none; }
+        .navbar .userProfile .user .drop .displayUser {
+          text-shadow: none; }
+        .navbar .userProfile .user .drop .caret {
+          display: none; }
+        .navbar .userProfile .user .drop :hover {
+          background-image: none;
+          background-color: none; }
+        .navbar .userProfile .user .drop .glyphicon-triangle-bottom {
+          font-size: 10px;
+          padding-left: 3px; }
+        .navbar .userProfile .user .drop .userImage {
+          height: 25px;
+          width: 30px;
+          padding-right: 5px;
+          border-radius: 15px; }
+  .navbar .divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 0;
+    overflow: hidden;
+    background-color: whitesmoke; }
+
+.badge1 {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 20px; }
+  .badge1 .material-icons {
+    text-shadow: none;
+    padding-top: 5px; }
+  .badge1 .caret {
+    display: none; }
+
+.badge1[data-badge]:after {
+  content: attr(data-badge);
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  font-size: .7em;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #333; }
+
+.badge2 {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 30px; }
+  .badge2 .material-icons {
+    text-shadow: none;
+    padding-top: 5px; }
+  .badge2 .caret {
+    display: none; }
+
+.badge2[data-badge]:after {
+  content: attr(data-badge);
+  position: absolute;
+  top: 0px;
+  right: 9px;
+  font-size: .7em;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #333; }
+
+.dropdown-menu {
+  border-radius: 10px; }
+
+.dropdown-menu > li > a:hover {
+  color: blue; }

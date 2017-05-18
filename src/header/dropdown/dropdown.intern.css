@@ -1,0 +1,14 @@
+/*************** primary colors  **************/
+/*************** primary colors End **************/
+.intern .dropdown {
+  background-color: #009688; }
+  .intern .dropdown hr {
+    border-top: 1px solid #00796b; }
+  .intern .dropdown li:hover {
+    background-color: #00897b; }
+  .intern .dropdown li:active {
+    background-color: #00897b; }
+  .intern .dropdown li:visited {
+    background-color: #00897b; }
+  .intern .dropdown li a {
+    color: white; }

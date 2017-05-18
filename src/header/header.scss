@@ -1,0 +1,55 @@
+ @import './header.intern.css';
+ 
+ .navbar {
+     position: absolute;
+     height: 60px;
+     width: 100%;
+     top: 0;
+     overflow-x: hidden;
+     left: 0;
+     z-index: 999;
+     .navbar-brand {
+         height: inherit;
+         .material-icons {
+             cursor: pointer;
+             margin-left: 20px;
+             margin-right: 30px;
+         }
+         .logo {
+             text-transform: uppercase;
+         }
+     }
+     .navbar-right {
+         display: block;
+         float: right;
+         height: 60px;
+         margin-right: 50px;
+         margin-top: -60px;
+         .userProfile {
+             height: inherit;
+             min-width: 175px !important;
+             max-width: 175px !important; //padding-bottom: 20px;
+             padding-left: 15px;
+             outline: none;
+             border: none;
+             display: inline-block;
+             cursor: pointer;
+             text-decoration: none;
+             font-size: 12px;
+             .userImage {
+                 height: 30px;
+                 width: 30px;
+                 padding-right: 5px;
+                 border-radius: 15px;
+                 top: 40px;
+                 .material-icons {
+                     transition: 1s;
+                 }
+             }
+         }
+         .userProfileActive {
+             @extend .userProfile;
+         }
+     }
+ }
+ /*  for small devices */

@@ -1,0 +1,7 @@
+@import '../../style/color.scss';
+
+.jobby{
+.sidebar {
+    @include background-color($cyan1);
+}
+}

@@ -1,0 +1,11 @@
+@import '../../style/color.scss';
+.intern {
+    .content {
+         background-color:$body_background;
+         color:$black;
+         h1 {
+             color:blue;
+         }
+        
+    }
+}

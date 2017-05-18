@@ -1,0 +1,14 @@
+/*************** primary colors  **************/
+/*************** primary colors End **************/
+.intern .sidebar {
+  background-color: #00897b; }
+  .intern .sidebar a {
+    color: black; }
+  .intern .sidebar a:hover, .intern .sidebar .offcanvas a:focus {
+    background-color: #00796b;
+    color: white; }
+  .intern .sidebar a.active {
+    background-color: #00695c;
+    color: white; }
+  .intern .sidebar .divider {
+    background-color: #00796b; }

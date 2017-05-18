@@ -1,0 +1,31 @@
+/*************** primary colors  **************/
+/*************** primary colors End **************/
+.intern .navbar {
+  background-color: #009688; }
+  .intern .navbar .navbar-brand {
+    color: white; }
+
+.intern .badge1 .material-icons {
+  color: white; }
+
+.intern .badge1 :hover {
+  color: black; }
+
+.intern .badge1[data-badge]:after {
+  background: green;
+  color: white;
+  box-shadow: 0 0 1px #333; }
+
+.intern .badge2 .material-icons {
+  color: white; }
+
+.intern .badge2 :hover {
+  color: black; }
+
+.intern .badge2 :active {
+  color: black; }
+
+.intern .badge2[data-badge]:after {
+  background: green;
+  color: white;
+  box-shadow: 0 0 1px #333; }

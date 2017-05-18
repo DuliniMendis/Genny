@@ -1,0 +1,23 @@
+@import '../../style/color.scss';
+.intern {
+    .dropdown {
+        background-color: $teal5;
+        hr {
+            border-top: 1px solid $teal7;
+        }
+        li {
+            &:hover {
+                background-color: $teal6;
+            }
+            &:active {
+                background-color: $teal6;
+            }
+            &:visited {
+                background-color: $teal6;
+            }
+            a {
+                color: white;
+            }
+        }
+    }
+}

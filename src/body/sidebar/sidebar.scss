@@ -1,0 +1,55 @@
+@import './sidebar.intern.css';
+@import './sidebar.jobby.css';
+
+
+.sidebar  {
+    position:fixed;
+    top:60px;
+    bottom:40px;
+    width:200px;
+    overflow-x: hidden;
+    display:block;
+    transition: 0.5s;
+    a {
+        padding: 10px 8px 10px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        transition: 0.3s;
+        }
+        i {
+            float:right;
+            }
+            .arrow {
+                float:left;
+                padding-left: 4px;
+                }
+               .subMenu {
+                    list-style: none;
+                    color:black;
+                    a {
+                        font-size: 12px;
+                        :hover {
+                        color:white;
+                        }
+
+                    } 
+                }
+         
+          .divider {
+                height: 1px;
+                width:100%;
+                display:block; /* for use on default inline elements like span */
+                margin: 0;
+                overflow: hidden;
+                background-color: rgb(255, 165, 0);
+            }
+        }
+
+    /*  for small devices */
+    @media screen and (max-width:415px) {
+        .sidebar {
+            width:0px;
+        }
+    }
+

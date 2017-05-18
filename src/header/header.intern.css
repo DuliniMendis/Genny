@@ -1,0 +1,12 @@
+/*************** primary colors  **************/
+/*************** primary colors End **************/
+.intern .navbar {
+  background-color: #009688;
+  color: white; }
+  .intern .navbar .navbar-right .userProfile, .intern .navbar .navbar-right .userProfileActive {
+    background-color: inherit;
+    color: white; }
+    .intern .navbar .navbar-right .userProfile:hover, .intern .navbar .navbar-right .userProfileActive:hover {
+      background-color: #00897b; }
+  .intern .navbar .navbar-right .userProfileActive {
+    background-color: #00897b; }

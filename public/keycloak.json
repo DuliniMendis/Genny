@@ -1,0 +1,10 @@
+{
+  "realm": "genny",
+  "auth-server-url": "https://bouncer.outcome-hub.com/auth",
+  "ssl-required": "external",
+  "resource": "layout",
+  "credentials": {
+    "secret": "87aa20f7-fb3d-4369-af13-7b5601ab1f74"
+  },
+  "policy-enforcer": {}
+}
